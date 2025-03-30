@@ -1,0 +1,17 @@
+/Users/linchengbo/Downloads/TrollStore-2/TrollHelper/.theos/obj/../Shared/TSUtil.m.4aaa7f7f.o: \
+  ../Shared/TSUtil.m /opt/theos/Prefix.pch ../Shared/TSUtil.h \
+  ../Shared/CoreServices.h /opt/theos/vendor/include/libroot.h \
+  /opt/theos/vendor/include/libroot/module.modulemap \
+  /opt/theos/vendor/include/libroot/libroot.h
+
+/opt/theos/Prefix.pch:
+
+../Shared/TSUtil.h:
+
+../Shared/CoreServices.h:
+
+/opt/theos/vendor/include/libroot.h:
+
+/opt/theos/vendor/include/libroot/module.modulemap:
+
+/opt/theos/vendor/include/libroot/libroot.h:
