@@ -1,7 +1,13 @@
+# TrollStore 界面重构
+这是一个经过汉化和UI优化的TrollStore版本，致力于为中文用户提供更好的使用体验。本项目基于[opa334的TrollStore](https://github.com/opa334/TrollStore)开发，保留了原版的全部功能，并增加了完整的中文本地化支持和UI改进。
 
-## UI改进与修复
+## 功能特点
 
-本版本的TrollStore包含了多项UI改进和功能修复，旨在提供更好的用户体验和更稳定的功能：
+### 完整的中文界面
+
+- 所有菜单、设置项和提示信息均已翻译为中文
+- 优化了中文字体显示和排版，确保在各种屏幕尺寸下有良好的显示效果
+- 修复了原版在显示中文时可能出现的布局问题
 
 ### 新的主界面设计
 
@@ -15,23 +21,41 @@
 - 改进了设置项的布局和交互方式，使设置更易于访问和修改
 - 为不同类型的设置项（开关、按钮、分段控制器等）添加了统一的样式和行为
 
-### 中文本地化支持
-
-- 为应用提供了完整的中文本地化支持
-- 翻译了所有界面元素、提示信息和错误消息
-- 确保中文文本在UI中正确显示，包括正确处理字体大小和文本换行
-
 ### 代码结构改进
 
 - 引入了TSPresentationDelegate模式，统一处理视图控制器的展示
 - 改进了设置项的管理和处理方式，使代码更加模块化和可维护
 - 优化了应用启动和资源加载流程，提高应用性能
 
-### 其他优化
+## 安装方法
 
-- 添加了新的图标生成脚本，支持快速创建不同尺寸的应用图标
-- 改进了打包流程，简化了IPA文件的生成步骤
-- 增强了错误处理和用户反馈机制，提供更明确的错误信息
+1. 下载最新的[TrollStore-FixedZH.ipa](https://github.com/Lincb522/TrollStore/releases/latest)文件
+2. 使用以下方式之一安装:
+   - 如果你已经安装了TrollStore，直接通过TrollStore安装IPA文件
+   - 如果你还没有安装TrollStore，请按照[官方安装指南](https://github.com/opa334/TrollStore#installation)进行安装
 
-这些改进和修复使TrollStore成为一个更易用、更稳定、更美观的工具，为用户提供了更好的iOS应用安装和管理体验。
+## 构建说明
+
+如果你想自己编译此项目:
+
+1. 确保已安装Theos开发环境
+2. 克隆此仓库：`git clone https://github.com/Lincb522/TrollStore.git`
+3. 进入项目目录: `cd TrollStore`
+4. 编译项目: `make`
+5. 生成IPA文件: `./package_ipa.sh`
+
+## 截图
+
+(此处将添加应用截图)
+
+## 致谢
+
+- [opa334](https://github.com/opa334) - 原版TrollStore的开发者
+- 所有为原版TrollStore做出贡献的开发者
+- Google TAG、@alfiecg_dev - CoreTrust漏洞发现
+- 所有参与测试和反馈的用户
+
+## 许可证
+
+本项目采用与原版TrollStore相同的许可证 - [LICENSE](LICENSE)
 
